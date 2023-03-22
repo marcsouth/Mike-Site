@@ -13,7 +13,7 @@ function App() {
   <div className="flex justify-center items-center flex-col text-center p-4">
 
 
-    <h1 className='text-lime-500 text-7xl mt-60 mb-10 font-extrabold  p-4 flex'>MIKE CREPON FITNESS</h1>
+    <h1 className='text-lime-500 text-7xl mt-40 mb-10 font-extrabold  p-4 flex'>MIKE CREPON FITNESS</h1>
 
 
 
