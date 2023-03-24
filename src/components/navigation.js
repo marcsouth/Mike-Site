@@ -1,29 +1,44 @@
-export default function Navigation() {
-  return (
-   <nav className="flex justify-between p-4 items-center">
+import React, { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from "react-scroll"
 
-   <div className=" text-slate-200  text-2xl font-extrabold"> MIKE C</div>
+const Navigation = () => {
 
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
 
+    const closeMenu = () => setClick(false)
 
-   <ul className=" text-slate-200 text-xl hidden">
+    return (
+        <div className='header'>
+            <nav className='navbar'>
+                <a href='/' className='logo'>
+                 <h2 className=" text-slate-200  text-2xl font-extrabold"> MIKE C</h2>
+                </a>
+                <div className='hamburger' onClick={handleClick}>
+                    {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
+                        : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
 
-   <li className="mr-5">About</li>
-   <li className="mr-5" >Services</li>
-   <li>Contact</li>
-
-   </ul>
-
-   <button className="relative group">
-        <div className="relative flex items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-black">
-          <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 group-focus:-rotate-[45deg] origin-center">
-            <div className="bg-white h-[2px] w-1/2 rounded transform transition-all duration-300 group-focus:-rotate-90 group-focus:h-[1px] origin-right delay-75 group-focus:-translate-y-[1px]"></div>
-            <div className="bg-white h-[1px] rounded"></div>
-            <div className="bg-white h-[2px] w-1/2 rounded self-end transform transition-all duration-300 group-focus:-rotate-90 group-focus:h-[1px] origin-left delay-75 group-focus:translate-y-[1px]"></div>
-          </div>
+                </div>
+                <ul className={click ? "nav-menu active" : "nav-menu"}>
+                    <li className='nav-item'>
+                        <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>ABOUT</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="services" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>SERVICES</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="testimonials" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>TESTIMONIALS</Link>
+                    </li>
+                    <li className='nav-item'>
+                            <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>CONTACT</Link>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </button>
-
-   </nav>
-  )
+    )
 }
+
+export default Navigation
+
+
