@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from "react-scroll"
 
+
 const Navigation = () => {
 
     const [click, setClick] = useState(false)
@@ -22,10 +23,10 @@ const Navigation = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>ABOUT</Link>
+                        <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>ABOUT</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="services" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>SERVICES</Link>
+                        <Link to="services" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>SERVICES</Link>
                     </li>
                     <li className='nav-item'>
                         <Link to="testimonials" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>TESTIMONIALS</Link>

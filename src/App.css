@@ -22,7 +22,7 @@ body{
     overflow-x: hidden;
 }
 .landingpage{
-    background-image: url(../public/images/landingdemo.jpg);
+    background-image: url(./components/images/landingdemo.jpg);
     background-position: center;
     background-size: cover;
 }
