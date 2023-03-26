@@ -126,6 +126,13 @@ body{
     }
 }
 
+@media screen and (max-width:450px) {
+    .landingpage{
+        height: 800px;
+    }
+
+}
+
 
 
 

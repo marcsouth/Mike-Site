@@ -8,7 +8,7 @@ export default function About() {
 
 
 
-<div  className=" pt-24 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
+<div  className=" pt-4 mt-10">
       <div className="bg-neutral-900 pb-20 sm:pb-24 xl:pb-0">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
           <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
@@ -37,9 +37,9 @@ export default function About() {
               <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                 <p>
                 There's so much fake information out there when it comes to fitness,
-   but I believe that getting fit doesn't have to be complicated or overwhelming. 
-   My approach is all about simplicity and effectiveness. I'll show you how easy personal training can be,
-    and together we'll create a plan that's tailored to your unique needs and goals. With my guidance, you'll achieve real results that will last a lifetime.
+                but I believe that getting fit doesn't have to be complicated or overwhelming. 
+                My approach is all about simplicity and effectiveness. I'll show you how easy personal training can be,
+                 and together we'll create a plan that's tailored to your unique needs and goals. With my guidance, you'll achieve real results that will last a lifetime.
                 </p>
               </blockquote>
             </figure>
