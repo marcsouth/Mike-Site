@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * { 
     margin: 0;
     padding: 0;
@@ -81,9 +82,42 @@ body{
     display: none;
 }
 
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(132 204 22);
+}
 
+div.slick-list{
+    padding-inline: 0px;
+}
 
+.slick-dots {
+    position: initial;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
 
 
 @media screen and (max-width:940px) {

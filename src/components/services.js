@@ -91,40 +91,14 @@ export default function Services() {
 
                   </div>
 
-         </div>
+              </div>
 
 
-</div>
+        </div>
 
-                {/* <div>
-
-                 <h2 className='text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9'>Group training sessions</h2>
-                 <p className='text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9'> group training sessions for clients who prefer to exercise in a social setting or want to split the cost of personal training with others.</p>
-
-                </div>
-
-
-                 <div>
-
-                 <h2 className='text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9'>Virtual training sessions</h2>
-                 <p className='text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9'>virtual training sessions for clients who prefer to work out from home or live in a different location.</p>
-
-                </div>
-
-                <div>
-
-                 <h2 className='text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9'>Nutritional guidance</h2>
-                 <p className='text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9'>nutritional guidance to clients to help them develop healthy eating habits and optimize their fitness results.</p>
-
-               </div> */}
-
-          </div>
-
+   </div>
 
 </div>
-
-
-
 
 
     </>
