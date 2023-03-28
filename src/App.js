@@ -5,8 +5,6 @@ import Testimonials from './components/testimonials';
 import Contact from './components/contact';
 import Services from './components/services';
 import { Link } from "react-scroll";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import './App.css';
 
 function App() {
