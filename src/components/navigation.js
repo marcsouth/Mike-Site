@@ -32,7 +32,7 @@ const Navigation = () => {
                         <Link to="testimonials" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>TESTIMONIALS</Link>
                     </li>
                     <li className='nav-item'>
-                            <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>CONTACT</Link>
+                            <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>CONTACT</Link>
                     </li>
                 </ul>
             </nav>

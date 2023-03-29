@@ -7,7 +7,7 @@ import { AiFillInstagram, AiFillFacebook, AiFillLinkedin } from "react-icons/ai"
 
 export default function Contact() {
 
-const [popup, setPopop] = useState(false);
+const [popup, setPopup] = useState(false);
 
   const form = useRef();
 
@@ -17,7 +17,10 @@ const [popup, setPopop] = useState(false);
     emailjs.sendForm('service_8ja2xpm', 'template_shcfseo', form.current, 'SmNd-ROtCevCsaMoC')
     .then((result) => {
       console.log(result.text);
-      setPopop(true);
+      setPopup(true);
+      setTimeout(() => {
+        setPopup(false);
+      }, 3000);
   }, (error) => {
       console.log(error.text);
   });
@@ -26,8 +29,21 @@ const [popup, setPopop] = useState(false);
 
   return (
     <>
+    <div className='relative '> 
 
-    <h2 id="contact" className="text-lime-500 text-5xl mb10 font-extrabold p-4 flex w-full justify-center items-center mt-8 mb-4">Contact</h2>
+
+    <div className={`border border-slate-200 p-2 w-80 rounded-lg items-center bg-black ${popup ? "flex" : "hidden"} absolute top-0 right-4 transform transition-transform duration-300 translate-x-0 z-10`}>
+    <FiSend size={40} color="#84CC16"/>
+      <p className='text-md font-semibold leading-6 text-white text-center'> Your Message was sent successfully</p>
+
+    
+    
+    
+    </div>
+
+    <h2 id="contact" className="text-lime-500 text-5xl mb10 font-extrabold p-4 flex w-full justify-center items-center mt-8 mb-4">Contact </h2>
+
+
 
 
     <p className='text-lg leading-6 text-gray-400 text-center mb-5 px-4'> Inquire today about special deals and offers</p>
@@ -73,15 +89,11 @@ const [popup, setPopop] = useState(false);
 
  </div>
 
- <div className='w-full flex items-center justify-center mt-4 mb-5'> <p className='text-gray-400 text-center'>Website Design and Built by <a>Marc-V</a></p></div>
+ <div className='w-full flex items-center justify-center mt-4 mb-5'> <p className='text-gray-400 text-center'>Website Design and Built by <a href='marc-v.dev'>Marc-V</a></p></div>
 
 
+</div>
 
-
-    <div className='border border-slate-200 p-2 w-80 items-center hidden'>
-    <FiSend size={40} color="#84CC16"/>
-      <p className='text-md font-semibold leading-6 text-white text-center'> Your Message was sent successfully</p>
-    </div>
 
     </>
   )
