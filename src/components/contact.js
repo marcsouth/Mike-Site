@@ -67,21 +67,21 @@ const [popup, setPopup] = useState(false);
 
     </div>
 
-     <div className='w-full items-center flex justify-between max-w-xs mx-auto p-2'>
+     <div className='w-full items-center flex justify-between max-w-xs mx-auto p-2 h-14'>
 
-      <div className='border-2 border-gray-400  rounded-full p-2'>
+      <div className='border-2 border-gray-400 rounded-full p-2 hover:shadow-lime-500 shadow-lg hover:mb-2'>
       <a>
-        <AiFillInstagram size={30} color="#fff" />
+        <AiFillInstagram size={30} color="#fff" className='' />
       </a>
       </div>
 
-      <div className='border-2 border-gray-400  rounded-full p-2'>
+      <div className='border-2 border-gray-400 rounded-full p-2 hover:shadow-lime-500 shadow-lg hover:mb-2'>
       <a>
         <AiFillFacebook size={30} color="#fff" />
       </a>
       </div>
 
-      <div className='border-2 border-gray-400  rounded-full p-2'>
+      <div className='border-2 border-gray-400 rounded-full p-2 hover:shadow-lime-500 shadow-lg hover:mb-2'>
       <a>
         <AiFillLinkedin size={30} color="#fff" />
       </a>

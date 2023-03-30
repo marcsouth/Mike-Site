@@ -13,9 +13,9 @@ const Navigation = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
+                <Link to='landing' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} className='logo cursor-pointer'>
                  <h2 className=" text-slate-200  text-2xl font-extrabold"> MIKE C</h2>
-                </a>
+                </Link>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}

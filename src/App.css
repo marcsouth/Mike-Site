@@ -52,6 +52,7 @@ body{
 
 .header .nav-menu a {
     color: rgb(226 232 240);
+    cursor:pointer;
 }
 
 .header .navbar img {

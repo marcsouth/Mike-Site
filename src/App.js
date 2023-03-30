@@ -12,6 +12,7 @@ function App() {
   <>
 
   <Navigation />
+  <div id="landing"></div>
 
 <div className="landingpage w-screen h-screen">
 
@@ -20,7 +21,7 @@ function App() {
     <h1 className='text-lime-500 text-7xl mt-40 md:mt-80 mb-10 font-extrabold  p-4 flex drop-shadow-md'>MIKE CREPON FITNESS</h1>
 
 
-    <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className='text-l text-lime-00  text-slate-200  bg-black   border border-slate-200 p-4 mb-10 rounded-lg '  > Book a Consultation today</Link>
+    <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className='text-l text-lime-00  text-slate-200  bg-black   border border-slate-200 p-4 mb-10 rounded-lg cursor-pointer'  > Book a Consultation today</Link>
  
 
   </div>

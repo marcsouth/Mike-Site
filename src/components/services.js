@@ -17,10 +17,10 @@ export default function Services() {
 
 
 
-          <div className='flex w-full flex-col lg:flex-row max-w-600 mx-auto justify-between items-center'>
+          <div className='flex w-full flex-col lg:flex-row max-w-600 mx-auto justify-between items-center '>
 
 
-              <div className=' shadow-white shadow-inner bg-gradient-to-r from-white to-gray-700 rounded-xl p-0.5 max-w-md h-full mb-10 '>
+              <div className=' shadow-white shadow-inner bg-gradient-to-r from-white to-gray-700 rounded-xl p-0.5 max-w-md h-full mb-10'>
   
 
                 <div className=' p-4  bg-black w-full rounded-xl'>
