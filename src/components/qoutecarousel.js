@@ -30,7 +30,7 @@ export default function SimpleSlider() {
        
         <img className="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture" />
         <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-            <cite className="pr-3 font-medium text-gray-900 dark:text-white">Ken Carson</cite>
+            <cite className="pr-3 font-medium text-white">Ken Carson</cite>
         </div>
     </figcaption>
 
@@ -49,7 +49,7 @@ export default function SimpleSlider() {
        
         <img className="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture" />
         <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-            <cite className="pr-3 font-medium text-gray-900 dark:text-white">Michael Scott</cite>
+            <cite className="pr-3 font-medium text-white">Michael Scott</cite>
         </div>
     </figcaption>
 
@@ -67,7 +67,7 @@ export default function SimpleSlider() {
        
         <img className="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="profile picture" />
         <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-            <cite className="pr-3 font-medium text-gray-900 dark:text-white">kobe Bryant</cite>
+            <cite className="pr-3 font-medium text-white">kobe Bryant</cite>
         </div>
     </figcaption>
 
