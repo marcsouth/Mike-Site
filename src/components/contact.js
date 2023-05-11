@@ -89,7 +89,7 @@ const [popup, setPopup] = useState(false);
 
  </div>
 
- <div className='w-full flex items-center justify-center mt-4 mb-5'> <p className='text-gray-400 text-center'>Website Design and Built by <a href='marc-v.dev'>Marc-V</a></p></div>
+ <div className='w-full flex items-center justify-center mt-4 mb-5'> <p className='text-gray-400 text-center'>Website Design and Built by <a href='https://marc-v.dev/'>Marc-V</a></p></div>
 
 
 </div>
